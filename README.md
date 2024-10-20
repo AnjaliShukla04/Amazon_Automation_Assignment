@@ -1,6 +1,7 @@
 # Amazon_Automation_Assignment
 
 **🛒 Amazon Product Automation Script**
+
 This Python script automates the process of searching for products on Amazon India using Selenium WebDriver. It demonstrates the following actions:
 
 1)Searching for a random product and verifying no results are found.
@@ -9,6 +10,7 @@ This Python script automates the process of searching for products on Amazon Ind
 
 
 **✨ Key Features**
+
 1)Automated Search: Search for any product on Amazon and handle "no results found."
 2)Product Interaction: Select a product, navigate through pages, and perform cart operations.
 3)Dynamic Element Handling: Waits for elements to load and clicks dynamically on product listings.
@@ -16,6 +18,7 @@ This Python script automates the process of searching for products on Amazon Ind
 
 
 **🛠️ Prerequisites**
+
 Make sure you have the following installed before running the script:
 
 1)Python 3.x 🐍
@@ -27,6 +30,7 @@ You can install Selenium using pip:
         pip install selenium
 
 **🖥️ Installation**
+
 1)Clone the repository or download the Python script:
         git clone https://github.com/yourusername/amazon-automation.git
 2)Download the appropriate version of ChromeDriver and place it in a known directory.
@@ -37,6 +41,7 @@ You can install Selenium using pip:
 
 
 **🚀 Usage**
+
 1)Open the terminal and navigate to the directory containing the script.
 2)Run the script using Python:
         python amazon_automation.py
@@ -46,11 +51,13 @@ You can install Selenium using pip:
 ~Change the quantity to 2, and finally remove the item from the cart.
 
 **🛑 Notes**
+
 1)Ensure that your ChromeDriver version matches your Chrome browser version.
 2)The script is built specifically for Amazon India (www.amazon.in), and XPaths might differ for other Amazon domains.
 3)The script waits for up to 10 seconds for elements to load; you can adjust this based on your internet speed.
 
 **📂 Project Structure**
+
 📦 amazon-automation
  ┣ 📜 amazon_automation.py      # Main script
  ┗ 📜 README.md                 # Documentation
